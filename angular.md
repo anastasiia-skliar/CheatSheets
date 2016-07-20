@@ -2,6 +2,7 @@
 
 Filters
 - amount | currency[:symbol] - Formats a number as a currency (ie $1,234.56).
+- any_date | date : format - Formats a  'dd MMM yyyy'
 
 Directives
 - ng-change="expression"
