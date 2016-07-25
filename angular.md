@@ -2,7 +2,7 @@
 
 Filters
 - amount | currency[:symbol] - Formats a number as a currency (ie $1,234.56).
-- any_date | date : format - Formats a  'dd MMM yyyy'
+- any_date | date : format - Formats any_date with format  'dd MMM yyyy'
 
 Directives
 - ng-change="expression"
@@ -10,7 +10,7 @@ Directives
 - ng-[dbl]click="expression"
 - ng-model="expression"
 - ng-repeat="([key,] value) in object|array"
-- <option ng-selected="boolean">
+-  <option ng-selected="boolean">
 - ng-submit="expression"
 - ng-hide|show="boolean"
 
@@ -54,3 +54,10 @@ Utility functions
 - angular.isUndefined - Determines if a reference is undefined
 - angular.lowercase - Converts the specified string to lowercase
 - angular.uppercase - Converts the specified string to uppercase
+
+Ui-router:
+- ui-sref A directive that binds a link (<a> tag) to a state.
+- ui-sref-active A directive working alongside ui-sref to add classes to an element when the related ui-sref directive's state is active, and removing them when it is inactive.
+- $state.go Convenience method for transitioning to a new state.
+- $state.reload()  force reloads the current state.
+- ui-view The ui-view directive tells $state where to place your templates. A view can be unnamed or named.
