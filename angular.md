@@ -13,6 +13,7 @@ Directives
 -  <option ng-selected="boolean">
 - ng-submit="expression"
 - ng-hide|show="boolean"
+- ng-if/ng-unless
 
 Components
 - angular.module() defines a module
