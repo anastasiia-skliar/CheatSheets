@@ -10,10 +10,11 @@ Directives
 - ng-[dbl]click="expression"
 - ng-model="expression"
 - ng-repeat="([key,] value) in object|array"
--  <option ng-selected="boolean">
+- option ng-selected="boolean"
 - ng-submit="expression"
 - ng-hide|show="boolean"
 - ng-if/ng-unless
+- ng-disabled="boolean"
 
 Components
 - angular.module() defines a module
